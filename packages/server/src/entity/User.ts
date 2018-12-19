@@ -20,8 +20,6 @@ export class User extends BaseEntity {
 
   @BeforeInsert()
   addId() {
-    // Function that will be called before inserting the user
-    // and will add the randon Id generated to the record
     this.id = uuidv4();
   }
 }

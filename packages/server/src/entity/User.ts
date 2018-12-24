@@ -1,25 +1,19 @@
-import {
-  Entity,
-  Column,
-  PrimaryColumn,
-  BeforeInsert,
-  BaseEntity
-} from "typeorm";
-import * as uuidv4 from "uuid/v4";
+import { Entity, PrimaryGeneratedColumn, Column, BaseEntity } from "typeorm";
+import { ObjectType, Field } from "type-graphql";
 
-@Entity("users") // Table name created will be named users
+@Entity()
+@ObjectType()
 export class User extends BaseEntity {
-  @PrimaryColumn("uuid")
-  id: string;
+  @PrimaryGeneratedColumn("uuid") id: string;
 
-  @Column("varchar", { length: 255 })
+  @Field()
+  @Column({ type: "text", unique: true })
+  username: string;
+
+  @Field()
+  @Column({ type: "text", unique: true })
   email: string;
 
-  @Column("text")
+  @Column()
   password: string;
-
-  @BeforeInsert()
-  addId() {
-    this.id = uuidv4();
-  }
 }

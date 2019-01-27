@@ -51,9 +51,6 @@ export class UserResolver {
       })
       .getOne();
 
-    // await User.findOne({
-    //   where: { email: userCredentials.usernameOrEmail }
-    // });
     if (!user) {
       return null;
     }

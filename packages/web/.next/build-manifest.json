@@ -11,23 +11,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/list-fc": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/list-class": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/": [
+    "/login": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

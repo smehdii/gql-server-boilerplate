@@ -93,10 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "../../node_modules/next/dist/pages/_document.js":
-/*!************************************************************************************************!*\
-  !*** /home/viirtual/Projects/gql-server-boilerplate/node_modules/next/dist/pages/_document.js ***!
-  \************************************************************************************************/
+/***/ "./node_modules/next/dist/pages/_document.js":
+/*!***************************************************!*\
+  !*** ./node_modules/next/dist/pages/_document.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -106,13 +106,13 @@ module.exports = __webpack_require__(/*! next/document */ "next/document")
 /***/ }),
 
 /***/ 2:
-/*!******************************************************************************************************!*\
-  !*** multi /home/viirtual/Projects/gql-server-boilerplate/node_modules/next/dist/pages/_document.js ***!
-  \******************************************************************************************************/
+/*!*********************************************************!*\
+  !*** multi ./node_modules/next/dist/pages/_document.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/viirtual/Projects/gql-server-boilerplate/node_modules/next/dist/pages/_document.js */"../../node_modules/next/dist/pages/_document.js");
+module.exports = __webpack_require__(/*! /home/viirtual/Projects/gql-server-boilerplate/packages/web/node_modules/next/dist/pages/_document.js */"./node_modules/next/dist/pages/_document.js");
 
 
 /***/ }),

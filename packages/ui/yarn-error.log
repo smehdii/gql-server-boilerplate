@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EACCES: permission denied, rmdir '/home/viirtual/Projects/gql-server-boilerplate/packages/web/node_modules/@types/zen-observable'
+  Error: EACCES: permission denied, mkdir '/home/viirtual/Projects/gql-server-boilerplate/packages/web/node_modules/send/node_modules/depd'
 
 npm manifest: 
   {

@@ -454,6 +454,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_apollo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-apollo */ "react-apollo");
 /* harmony import */ var react_apollo__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_apollo__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _lib_with_apollo_client__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../lib/with-apollo-client */ "./lib/with-apollo-client.tsx");
+/* harmony import */ var _gql_server_boilerplate_ui__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @gql-server-boilerplate/ui */ "@gql-server-boilerplate/ui");
+/* harmony import */ var _gql_server_boilerplate_ui__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_gql_server_boilerplate_ui__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/home/viirtual/Projects/gql-server-boilerplate/packages/web/pages/_app.tsx";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -481,6 +483,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
 var MyApp =
 /*#__PURE__*/
 function (_App) {
@@ -502,20 +505,26 @@ function (_App) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_0__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 14
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_apollo__WEBPACK_IMPORTED_MODULE_2__["ApolloProvider"], {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_gql_server_boilerplate_ui__WEBPACK_IMPORTED_MODULE_4__["GlobalStyle"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_apollo__WEBPACK_IMPORTED_MODULE_2__["ApolloProvider"], {
         client: apolloClient,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 17
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Component, _extends({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 18
         },
         __self: this
       }))));
@@ -549,6 +558,17 @@ module.exports = __webpack_require__(/*! ./pages/_app.tsx */"./pages/_app.tsx");
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/regenerator");
+
+/***/ }),
+
+/***/ "@gql-server-boilerplate/ui":
+/*!*********************************************!*\
+  !*** external "@gql-server-boilerplate/ui" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@gql-server-boilerplate/ui");
 
 /***/ }),
 
